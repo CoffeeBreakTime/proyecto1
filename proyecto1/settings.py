@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h(&f&3ilac=#c-t(2x3ni0jdaio^vje0**t2%or5ap#%_z50$(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mamiko.pythonanywhere.com']
 
 
 # Application definition
