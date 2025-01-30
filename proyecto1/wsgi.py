@@ -1,4 +1,4 @@
-
+"""
 import os
 import sys
 
@@ -10,7 +10,7 @@ from django.core.wsgi import get_wsgi_application # type: ignore
 from django.contrib.staticfiles.handlers import StaticFilesHandler # type: ignore
 application = StaticFilesHandler(get_wsgi_application())
 
-"""
+
 WSGI config for proyecto1 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
